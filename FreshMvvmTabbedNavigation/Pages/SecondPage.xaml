@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:badgeView="clr-namespace:Plugin.Badge.Abstractions;assembly=Plugin.Badge.Abstractions" 
+             x:Class="FreshMvvmTabbedNavigation.Pages.SecondPage"
+             badgeView:TabBadge.BadgeText="10">
+    <ContentPage.Content>
+        <Label Text="First Tab"/>
+    </ContentPage.Content>
+</ContentPage>
